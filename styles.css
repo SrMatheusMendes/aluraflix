@@ -1,0 +1,61 @@
+body {
+    color: lightgreen;
+    background: rgb(1, 1, 20);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px lightblue;
+    padding:20px;
+    font-size: 32px;
+    color: lightblue;
+}
+
+.divertidamente {
+background: rgb(25, 61, 33);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.chamada {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.trailers {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.filmes {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.trailers img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.trailers img:hover {
+    opacity: 1.0;
+    border: 2px solid lightblue
+}
+
+.filmes h2 {
+    color: lightblue
+}
+
